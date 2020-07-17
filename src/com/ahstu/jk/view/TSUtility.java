@@ -5,10 +5,7 @@ import java.util.*;
 public class TSUtility {
     private static Scanner scanner=new Scanner(System.in);
     /**
-     * @Description 该方法读取键盘，如果用户输入‘1-4’中的任意字符，则方法返回，返回值为用户键入字符
-     * @author shkstart
-     * @date 2020年7月16日下午15:02:45
-     * @return
+     * 该方法读取键盘，如果用户输入‘1-4’中的任意字符，则方法返回，返回值为用户键入字符
      */
     public static char readMenuSelection(){
         char c;
@@ -22,19 +19,14 @@ public class TSUtility {
         return c;
     }
     /**
-     * @Description 该方法提示并等待，直到用户按回车键后返回
-     * @author shkstart
-     * @date 2020年7月16日下午15:10:22
+    *该方法提示并等待，直到用户按回车键后返回
      */
     public static void readReturn() {
         System.out.print("按回车键继续...");
         readKeyBoard(100,true);
     }
     /**
-     * @Description 该方法从键盘读取一个长度不超过2位的整数，并将其作为方法的返回值
-     * @author shkstart
-     * @date 2020年7月16日下午15:16:30
-     * @return
+     *  该方法从键盘读取一个长度不超过2位的整数，并将其作为方法的返回值
      */
     public static int readInt(){
         int n;
@@ -50,9 +42,7 @@ public class TSUtility {
         return n;
     }
     /**
-     * @Description  从键盘读取'Y'或'N'，并将其作为方法的返回值
-     * @author shkstart
-     * @date 2020年7月16日下午15:22:27
+     * 从键盘读取'Y'或'N'，并将其作为方法的返回值
      */
     public static char readConfirmSelection(){
         char c;
